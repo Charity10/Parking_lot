@@ -45,6 +45,11 @@ body{
     width: 2px;
     background-color: plum;
     gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    
+
 }
 .lot {
      display: flex;
@@ -56,7 +61,10 @@ button {
     height: 90px;
     padding: 10px;
     margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
     cursor: pointer;
+    
     /* display: none; */
 }
 button:hover {
