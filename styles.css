@@ -3,13 +3,13 @@ body{
     padding: 0 ;
 }
 
-.parking-page {
+/* .parking-page {
     display: flex;
     height: 100%;
     gap: 20%;
 
-}
-.home-page {
+} */
+.general {
     display: flex;
     height: 100%;
     gap: 20%;
@@ -117,3 +117,17 @@ padding: 30px 20px;
 font-size: 30px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.userInfo {
+    margin: 0;
+    background: plum;
+    padding: 20% 30%;
+    gap: 30px;
+}
+
+.userInfo > button{
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
